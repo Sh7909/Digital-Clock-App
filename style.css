@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width:80rem;
+    max-height:40rem;
+    height:30rem;
+    width:70rem;
+    background-color:rgb(162, 85, 166);
+    border:5px solid black;
+    margin-top:10rem;
+    margin-left:20rem;
+}
+.child{
+    height:10rem;
+    width: 60rem;
+    margin:auto;
+    background-color:rgb(162, 85, 166);
+    border:5px solid white;
+    border-radius:1.5rem;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    
+}
+#clock{
+    text-align: center;
+    font-size:140px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#clock:hover{
+    background-color:rgb(178, 154, 193);
+    border-color:black;
+    color:black;
+}
